@@ -29,6 +29,10 @@
 <td align="center"><img src="screenshots/new-alarm.png" alt="New alarm: pick time, repeat days and ringtone" width="100%"><br><sub><b>Báo thức mới: chọn giờ, lặp lại, nhạc chuông</b><br>New alarm: pick time, repeat days and ringtone</sub></td>
 <td align="center"><img src="screenshots/add-city.png" alt="Add city: quick search across the world" width="100%"><br><sub><b>Thêm thành phố: tìm nhanh trên toàn thế giới</b><br>Add city: quick search across the world</sub></td>
 </tr>
+<tr>
+<td align="center"><img src="screenshots/menu-bar.png" alt="Menu bar: quick view of time, timers and countdowns" width="100%"><br><sub><b>Thanh menu: xem nhanh giờ, hẹn giờ và đếm ngược</b><br>Menu bar: quick view of the time, timers and countdowns</sub></td>
+<td></td>
+</tr>
 </table>
 
 ## Tiếng Việt
