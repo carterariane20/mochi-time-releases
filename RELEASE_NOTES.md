@@ -1,5 +1,13 @@
 # Ghi chú phát hành / Release notes
 
+## 1.1.0
+
+### Tiếng Việt
+- Cập nhật thêm ngôn ngữ tiếng Anh.
+
+### English
+- Added English language support.
+
 ## 1.0.0
 
 ### Tiếng Việt
