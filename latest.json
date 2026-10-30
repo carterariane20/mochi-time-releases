@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "build": 1,
+  "version": "1.1.0",
+  "build": 2,
   "minOS": "14.0",
-  "url": "https://github.com/carterariane20/mochi-time-releases/releases/download/v1.0.0/MochiTime-1.0.0.dmg",
-  "sha256": "d2a25a7b9cf502513d26de7e8003e074d7002b34358e9da08a494ae50a27e45d",
-  "notes_vi": "Bản đầu tiên.",
-  "notes_en": "First release."
+  "url": "https://github.com/carterariane20/mochi-time-releases/releases/download/v1.1.0/MochiTime-1.1.0.dmg",
+  "sha256": "c56c476c554740cea9c9a5b85ddd984567df7082376f3c47cb47ad1b9458c111",
+  "notes_vi": "Cập nhật thêm ngôn ngữ tiếng Anh.",
+  "notes_en": "Added English language support."
 }
