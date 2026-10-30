@@ -45,6 +45,7 @@ Bản dựng macOS của Mochi Time (cần macOS 14 trở lên). Tải file `.dm
    - **macOS 15 trở lên**: bấm **Done**, vào **System Settings → Privacy & Security**, kéo xuống bấm **Open Anyway** ở dòng Mochi Time, rồi xác nhận.
    - **macOS 14**: chuột phải vào app trong Applications, chọn **Mở**.
    - Hoặc dùng Terminal: `xattr -dr com.apple.quarantine "/Applications/Mochi Time.app"`
+
 - Các bản sau app tự cập nhật.
 - `latest.json` là file thông tin phiên bản để app kiểm tra cập nhật.
 - Repo này chỉ chứa bản dựng, không chứa mã nguồn.
@@ -59,6 +60,7 @@ macOS builds of Mochi Time (requires macOS 14 or later). Download the latest `.d
    - **macOS 15 or later**: click **Done**, go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to Mochi Time, then confirm.
    - **macOS 14**: right-click the app in Applications and choose **Open**.
    - Or use Terminal: `xattr -dr com.apple.quarantine "/Applications/Mochi Time.app"`
+
 - Later versions update themselves.
 - `latest.json` is the version info file the app reads to check for updates.
 - This repo contains builds only, not the source code.
