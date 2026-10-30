@@ -1,5 +1,21 @@
 # Ghi chú phát hành / Release notes
 
+## 1.2.0
+
+### Tiếng Việt
+- Thêm 4 ngôn ngữ mới: **tiếng Trung giản thể, tiếng Hàn, tiếng Nhật và tiếng Thái**. App giờ có 6 ngôn ngữ cùng tiếng Việt và tiếng Anh.
+- Chọn ngôn ngữ trong "Về Mochi Time"; đổi là áp dụng ngay, không cần mở lại app. Lần đầu mở, app theo ngôn ngữ của macOS (tiếng Trung phồn thể dùng tiếng Anh).
+- Ngày, thứ, tên thành phố và quốc gia hiển thị theo từng ngôn ngữ; tiếng Thái dùng dương lịch (năm 2026).
+- Bản dịch mới do AI soạn, chưa được người bản ngữ rà. Nếu thấy chỗ nào chưa tự nhiên, mời bạn báo qua trang Issues.
+- Các thẻ dựng sẵn (hẹn giờ, sự kiện, thành phố mẫu) giữ nguyên ngôn ngữ lúc được tạo lần đầu.
+
+### English
+- Added 4 new languages: **Simplified Chinese, Korean, Japanese and Thai**. Mochi Time now speaks 6 languages with Vietnamese and English.
+- Pick a language in "About Mochi Time"; it changes right away, no restart needed. On first launch the app follows the macOS language (Traditional Chinese falls back to English).
+- Dates, weekdays, city and country names follow each language; Thai uses the Gregorian year (2026).
+- The new translations were drafted with AI and have not been reviewed by native speakers yet. If anything reads unnaturally, please tell us on the Issues page.
+- Built-in cards (timers, events, sample cities) keep the language they were created in on first launch.
+
 ## 1.1.0
 
 ### Tiếng Việt

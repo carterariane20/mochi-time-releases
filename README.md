@@ -6,6 +6,7 @@
 - 🎉 **Đếm ngược**: đếm ngược đến những ngày bạn mong chờ.
 - ⏱️ **Hẹn giờ**: chạy nhiều bộ hẹn giờ cùng lúc, hết giờ Mochi sẽ báo bạn.
 - ⏰ **Báo thức**: báo thức lặp lại với nhạc chuông dịu nhẹ.
+- 🌐 **6 ngôn ngữ**: Tiếng Việt, English, 简体中文, 한국어, 日本語, ไทย. Đổi ngay trong "Về Mochi Time".
 
 🍡 **Mochi Time** is a macOS app with 4 time tools, wrapped up in one gentle, cute little mochi:
 
@@ -13,6 +14,7 @@
 - 🎉 **Countdown**: count down to the days you're looking forward to.
 - ⏱️ **Timer**: run several timers at once; Mochi lets you know when time's up.
 - ⏰ **Alarm**: repeating alarms with soft, gentle ringtones.
+- 🌐 **6 languages**: Tiếng Việt, English, 简体中文, 한국어, 日本語, ไทย. Switch instantly in "About Mochi Time".
 
 ## Ảnh chụp màn hình / Screenshots
 
