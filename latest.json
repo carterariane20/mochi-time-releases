@@ -1,9 +1,13 @@
 {
-  "version": "1.1.0",
-  "build": 2,
+  "version": "1.2.0",
+  "build": 3,
   "minOS": "14.0",
-  "url": "https://github.com/carterariane20/mochi-time-releases/releases/download/v1.1.0/MochiTime-1.1.0.dmg",
-  "sha256": "c56c476c554740cea9c9a5b85ddd984567df7082376f3c47cb47ad1b9458c111",
-  "notes_vi": "Cập nhật thêm ngôn ngữ tiếng Anh.",
-  "notes_en": "Added English language support."
+  "url": "https://github.com/carterariane20/mochi-time-releases/releases/download/v1.2.0/MochiTime-1.2.0.dmg",
+  "sha256": "0402b334ec00609597d645694e1a96c0fe03f524b0d246be0b7c4f7d71499c29",
+  "notes_vi": "Thêm tiếng Trung, Hàn, Nhật, Thái.",
+  "notes_en": "Added Chinese, Korean, Japanese and Thai.",
+  "notes_zh": "新增中文、韩语、日语、泰语。",
+  "notes_ko": "중국어·한국어·일본어·태국어 추가",
+  "notes_ja": "中国語・韓国語・日本語・タイ語を追加",
+  "notes_th": "เพิ่มภาษาจีน เกาหลี ญี่ปุ่น ไทย"
 }
