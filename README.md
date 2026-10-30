@@ -40,11 +40,17 @@
 Bản dựng macOS của Mochi Time (cần macOS 14 trở lên). Tải file `.dmg` mới nhất ở mục **Releases**.
 
 **Cài đặt**
-1. Mở file `.dmg`, kéo **Mochi Time** vào thư mục **Applications**.
-2. Lần đầu mở app sẽ bị macOS chặn vì chưa được Apple notarize:
+1. Mở file `.dmg`, **kéo thả** **Mochi Time** vào thư mục **Applications**.
+2. Lần đầu mở app sẽ bị macOS chặn vì chưa được Apple notarize. Cách xử lý nhanh nhất là gỡ cờ cách ly bằng Terminal:
+   - Mở **Terminal**, gõ `xattr -cr ` (có **dấu cách ở cuối**, chưa bấm Enter).
+   - Mở thư mục **Applications**, **kéo thả** file **Mochi Time** vào cửa sổ Terminal, đường dẫn sẽ tự điền. Lệnh hoàn chỉnh trông như sau:
+     ```
+     xattr -cr "/Applications/Mochi Time.app"
+     ```
+   - Bấm **Enter**, rồi mở Mochi Time bình thường.
+3. Hoặc không dùng Terminal:
    - **macOS 15 trở lên**: bấm **Done**, vào **System Settings → Privacy & Security**, kéo xuống bấm **Open Anyway** ở dòng Mochi Time, rồi xác nhận.
    - **macOS 14**: chuột phải vào app trong Applications, chọn **Mở**.
-   - Hoặc dùng Terminal: `xattr -dr com.apple.quarantine "/Applications/Mochi Time.app"`
 
 - Các bản sau app tự cập nhật.
 - `latest.json` là file thông tin phiên bản để app kiểm tra cập nhật.
@@ -55,11 +61,17 @@ Bản dựng macOS của Mochi Time (cần macOS 14 trở lên). Tải file `.dm
 macOS builds of Mochi Time (requires macOS 14 or later). Download the latest `.dmg` from **Releases**.
 
 **Install**
-1. Open the `.dmg` and drag **Mochi Time** into the **Applications** folder.
-2. On first launch macOS blocks the app because it is not notarized by Apple:
+1. Open the `.dmg` and **drag** **Mochi Time** into the **Applications** folder.
+2. On first launch macOS blocks the app because it is not notarized by Apple. The quickest fix is to clear the quarantine flag in Terminal:
+   - Open **Terminal** and type `xattr -cr ` (with a **trailing space**, don't press Enter yet).
+   - Open the **Applications** folder and **drag** the **Mochi Time** app into the Terminal window; its path is filled in for you. The full command looks like this:
+     ```
+     xattr -cr "/Applications/Mochi Time.app"
+     ```
+   - Press **Enter**, then open Mochi Time as usual.
+3. Or without Terminal:
    - **macOS 15 or later**: click **Done**, go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to Mochi Time, then confirm.
    - **macOS 14**: right-click the app in Applications and choose **Open**.
-   - Or use Terminal: `xattr -dr com.apple.quarantine "/Applications/Mochi Time.app"`
 
 - Later versions update themselves.
 - `latest.json` is the version info file the app reads to check for updates.
