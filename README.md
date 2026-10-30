@@ -37,18 +37,28 @@
 
 ## Tiếng Việt
 
-Bản dựng macOS của Mochi Time (cần macOS 14 trở lên). Tải file `.zip` mới nhất ở mục **Releases**.
+Bản dựng macOS của Mochi Time (cần macOS 14 trở lên). Tải file `.dmg` mới nhất ở mục **Releases**.
 
-- Lần đầu mở: chuột phải vào app, chọn **Mở** (app chưa được Apple notarize).
+**Cài đặt**
+1. Mở file `.dmg`, kéo **Mochi Time** vào thư mục **Applications**.
+2. Lần đầu mở app sẽ bị macOS chặn vì chưa được Apple notarize:
+   - **macOS 15 trở lên**: bấm **Done**, vào **System Settings → Privacy & Security**, kéo xuống bấm **Open Anyway** ở dòng Mochi Time, rồi xác nhận.
+   - **macOS 14**: chuột phải vào app trong Applications, chọn **Mở**.
+   - Hoặc dùng Terminal: `xattr -dr com.apple.quarantine "/Applications/Mochi Time.app"`
 - Các bản sau app tự cập nhật.
 - `latest.json` là file thông tin phiên bản để app kiểm tra cập nhật.
 - Repo này chỉ chứa bản dựng, không chứa mã nguồn.
 
 ## English
 
-macOS builds of Mochi Time (requires macOS 14 or later). Download the latest `.zip` from **Releases**.
+macOS builds of Mochi Time (requires macOS 14 or later). Download the latest `.dmg` from **Releases**.
 
-- First launch: right-click the app and choose **Open** (the app is not notarized by Apple).
+**Install**
+1. Open the `.dmg` and drag **Mochi Time** into the **Applications** folder.
+2. On first launch macOS blocks the app because it is not notarized by Apple:
+   - **macOS 15 or later**: click **Done**, go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to Mochi Time, then confirm.
+   - **macOS 14**: right-click the app in Applications and choose **Open**.
+   - Or use Terminal: `xattr -dr com.apple.quarantine "/Applications/Mochi Time.app"`
 - Later versions update themselves.
 - `latest.json` is the version info file the app reads to check for updates.
 - This repo contains builds only, not the source code.

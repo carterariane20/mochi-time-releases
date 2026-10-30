@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "build": 1,
   "minOS": "14.0",
-  "url": "https://github.com/carterariane20/mochi-time-releases/releases/download/v1.0.0/MochiTime-1.0.0.zip",
-  "sha256": "c041593a5e3dcbc6f30aa094024b7148bb3eed7ff39395fbb1d22313005f65c8",
+  "url": "https://github.com/carterariane20/mochi-time-releases/releases/download/v1.0.0/MochiTime-1.0.0.dmg",
+  "sha256": "d2a25a7b9cf502513d26de7e8003e074d7002b34358e9da08a494ae50a27e45d",
   "notes_vi": "Bản đầu tiên.",
   "notes_en": "First release."
 }
